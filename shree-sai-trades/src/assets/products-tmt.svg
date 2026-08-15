@@ -1,0 +1,61 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#26292f"/>
+      <stop offset="100%" stop-color="#101215"/>
+    </linearGradient>
+    <radialGradient id="barShine" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#e2e5e9"/>
+      <stop offset="60%" stop-color="#9ba0a8"/>
+      <stop offset="100%" stop-color="#5b5f66"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg1)"/>
+  <g>
+    <!-- rows of stacked bar ends forming a pyramid -->
+    <g transform="translate(150,560)">
+      <!-- row 1 (bottom, 8 bars) -->
+      <g>
+        <circle cx="0" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="80" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="160" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="240" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="320" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="400" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="480" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="560" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+        <circle cx="640" cy="0" r="38" fill="url(#barShine)" stroke="#c1470f" stroke-width="4"/>
+      </g>
+      <!-- row 2 -->
+      <g transform="translate(40,-66)">
+        <circle cx="0" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="80" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="160" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="240" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="320" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="400" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="480" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="560" cy="0" r="38" fill="url(#barShine)"/>
+      </g>
+      <!-- row 3 -->
+      <g transform="translate(80,-132)">
+        <circle cx="0" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="80" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="160" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="240" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="320" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="400" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="480" cy="0" r="38" fill="url(#barShine)"/>
+      </g>
+      <!-- row 4 -->
+      <g transform="translate(120,-198)">
+        <circle cx="0" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="80" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="160" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="240" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="320" cy="0" r="38" fill="url(#barShine)"/>
+        <circle cx="400" cy="0" r="38" fill="url(#barShine)"/>
+      </g>
+    </g>
+  </g>
+</svg>

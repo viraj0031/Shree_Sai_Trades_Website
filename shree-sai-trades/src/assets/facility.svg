@@ -1,0 +1,43 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4048"/>
+      <stop offset="100%" stop-color="#181b20"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#skyF)"/>
+  <!-- ground -->
+  <rect x="0" y="520" width="1200" height="180" fill="#22252a"/>
+  <!-- warehouse building -->
+  <g fill="#4a4f57">
+    <polygon points="150,520 150,340 450,260 750,340 750,520"/>
+    <polygon points="150,340 450,260 750,340 750,380 450,300 150,380"/>
+  </g>
+  <g fill="#2c2f35">
+    <rect x="220" y="420" width="90" height="100"/>
+    <rect x="340" y="420" width="90" height="100"/>
+    <rect x="460" y="420" width="90" height="100"/>
+    <rect x="580" y="420" width="90" height="100"/>
+  </g>
+  <!-- roller shutter door -->
+  <rect x="330" y="440" width="150" height="80" fill="#c1470f" opacity="0.85"/>
+  <!-- storage racks with pipes/rods -->
+  <g stroke="#8a8f98" stroke-width="8" stroke-linecap="round">
+    <line x1="830" y1="460" x2="1140" y2="460"/>
+    <line x1="830" y1="480" x2="1140" y2="480"/>
+    <line x1="830" y1="500" x2="1140" y2="500"/>
+    <line x1="830" y1="520" x2="1140" y2="520"/>
+  </g>
+  <g fill="none" stroke="#5c6067" stroke-width="6">
+    <rect x="820" y="440" width="330" height="100"/>
+    <line x1="820" y1="540" x2="820" y2="620"/>
+    <line x1="1150" y1="540" x2="1150" y2="620"/>
+  </g>
+  <!-- forklift silhouette -->
+  <g transform="translate(600,540)" fill="#c1470f">
+    <rect x="0" y="0" width="70" height="34" rx="4"/>
+    <rect x="60" y="-40" width="8" height="74"/>
+    <circle cx="14" cy="40" r="14" fill="#1a1c1f"/>
+    <circle cx="56" cy="40" r="14" fill="#1a1c1f"/>
+  </g>
+</svg>

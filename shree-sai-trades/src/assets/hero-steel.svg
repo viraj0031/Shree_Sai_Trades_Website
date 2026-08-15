@@ -1,0 +1,48 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2f38"/>
+      <stop offset="100%" stop-color="#0f1114"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a8f98"/>
+      <stop offset="50%" stop-color="#c7cbd1"/>
+      <stop offset="100%" stop-color="#6d7178"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#skyGrad)"/>
+  <!-- distant warehouse silhouettes -->
+  <g opacity="0.5" fill="#1a1d22">
+    <polygon points="0,560 200,480 400,560 400,900 0,900"/>
+    <polygon points="380,600 700,500 1020,600 1020,900 380,900"/>
+    <rect x="1000" y="520" width="600" height="380"/>
+  </g>
+  <!-- stacked TMT bars (cross-section circles) -->
+  <g>
+    <g transform="translate(80,650)">
+      <circle cx="0" cy="0" r="34" fill="url(#barGrad)"/>
+      <circle cx="70" cy="0" r="34" fill="url(#barGrad)"/>
+      <circle cx="140" cy="0" r="34" fill="url(#barGrad)"/>
+      <circle cx="210" cy="0" r="34" fill="url(#barGrad)"/>
+      <circle cx="35" cy="-58" r="34" fill="url(#barGrad)"/>
+      <circle cx="105" cy="-58" r="34" fill="url(#barGrad)"/>
+      <circle cx="175" cy="-58" r="34" fill="url(#barGrad)"/>
+      <circle cx="70" cy="-116" r="34" fill="url(#barGrad)"/>
+      <circle cx="140" cy="-116" r="34" fill="url(#barGrad)"/>
+    </g>
+  </g>
+  <!-- rust orange structural beam accents -->
+  <g stroke="#c1470f" stroke-width="10" opacity="0.85">
+    <line x1="1100" y1="900" x2="1100" y2="480"/>
+    <line x1="1100" y1="480" x2="1400" y2="480"/>
+    <line x1="1400" y1="900" x2="1400" y2="480"/>
+    <line x1="1100" y1="700" x2="1400" y2="580"/>
+    <line x1="1100" y1="580" x2="1400" y2="700"/>
+  </g>
+  <!-- foreground rebar bundle silhouettes -->
+  <g stroke="#3a3f47" stroke-width="14" stroke-linecap="round" opacity="0.9">
+    <line x1="-50" y1="850" x2="500" y2="800"/>
+    <line x1="-50" y1="880" x2="520" y2="830"/>
+    <line x1="1150" y1="900" x2="1700" y2="830"/>
+  </g>
+</svg>
