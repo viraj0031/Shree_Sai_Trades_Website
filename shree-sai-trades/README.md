@@ -1,44 +1,34 @@
 # Shree Sai Trades Website
 
-A modern, responsive business website developed for **Shree Sai Trades**, showcasing products, services, company information, and contact details.
+A modern, responsive business website developed for **Shree Sai Trades**, a steel and construction materials supplier. This project showcases the company's products, services, infrastructure, and contact information through a professional and user-friendly web experience.
 
 ## 🌐 Live Website
 
-**Website:** https://shreesaitrades.netlify.app/
+**Client Website:**
+https://shreesaitrades.netlify.app/
 
 ## 📌 Project Overview
 
-Shree Sai Trades Website is a professional business website built to provide customers with information about the company's products, services, and business operations. The website focuses on a clean user interface, responsive design, and smooth user experience across desktop and mobile devices.
+Shree Sai Trades required a modern online presence to showcase their business, product offerings, and services. This website was designed and developed to provide customers with easy access to company information and improve digital visibility.
 
 ## ✨ Features
 
-* Responsive design for all screen sizes
-* Modern and clean user interface
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and professional UI/UX
 * Product showcase section
-* Services section
-* About Us section
-* Customer reviews/testimonials
-* Contact information and inquiry section
-* Optimized performance and fast loading
+* Company information and services
+* Customer reviews section
+* Contact and inquiry section
+* Fast loading and optimized performance
 * SEO-friendly structure
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
 * React
 * TypeScript
 * Vite
-
-### UI & Styling
-
-* Tailwind CSS
-* Radix UI Components
-* Lucide React Icons
-
-### Deployment
-
-* Netlify
+* CSS
+* Responsive Web Design
 
 ## 📂 Project Structure
 
@@ -50,8 +40,7 @@ src/
 ├── lib/
 ├── pages/
 ├── App.tsx
-├── main.tsx
-└── index.css
+└── main.tsx
 ```
 
 ## 🚀 Installation
@@ -74,7 +63,7 @@ Install dependencies:
 npm install
 ```
 
-Run the development server:
+Start the development server:
 
 ```bash
 npm run dev
@@ -86,19 +75,11 @@ Build for production:
 npm run build
 ```
 
-Preview production build:
+## 💼 Project Type
 
-```bash
-npm run preview
-```
+**Client Project (Freelance / Professional Work)**
 
-## 📸 Screenshots
-
-Add screenshots of the website here for better project presentation.
-
-## 🎯 Purpose
-
-This project was developed to create a professional online presence for Shree Sai Trades and provide customers with easy access to company information, products, and services.
+This website was developed for a real business client to establish a professional online presence and improve customer engagement.
 
 ## 👨‍💻 Developer
 
@@ -108,4 +89,4 @@ GitHub: https://github.com/viraj0031
 
 ## 📄 License
 
-This project is intended for portfolio and demonstration purposes unless otherwise specified by the client.
+This project is shared for portfolio and demonstration purposes. All business content, branding, and assets belong to their respective owner, **Shree Sai Trades**.
